@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import ProjectsComp from '../components/ProjectsComp'
 // import styles from '../styles/Home.module.css'
 
 const Projects: NextPage = () => {
@@ -13,6 +14,7 @@ const Projects: NextPage = () => {
       </Head>
       <main>
         <h1>Projects Page</h1>
+        <ProjectsComp />
       </main>
       </div>
   )
