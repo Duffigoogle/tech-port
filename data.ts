@@ -143,7 +143,7 @@ export const projects: IProjects[] = [
   img_src: "/images/Dev-3.png",
   deployed_link: "",
   github_url: "",
-  category: ["React"],
+  category: ["React", "Nextjs"],
   tech_used: ["NextJs", "SASS", "TailwindCSS"]
 },
   {
@@ -152,7 +152,7 @@ export const projects: IProjects[] = [
   img_src: "/images/Dev-4.png",
   deployed_link: "https://algovest.fi/",
   github_url: "https://github.com/Venaz-dev/algovest-dashboard",
-  category: ["React"],
+  category: ["React", "Nextjs"],
   tech_used: ["React", "NextJs", "MaterialUI", "SASS"]
 },
   {
@@ -179,7 +179,7 @@ export const projects: IProjects[] = [
   img_src: "/images/Dev-7.png",
   deployed_link: "https://dapp-homepage.vercel.app",
   github_url: "https://github.com/Duffigoogle/DApp",
-  category: ["React", "Web3"],
+  category: ["Web3"],
   tech_used: ["Nextjs", "SASS", "web3js", "TypeScript"]
 },
 {
@@ -188,7 +188,7 @@ export const projects: IProjects[] = [
   img_src: "/images/Dev-8.png",
   deployed_link: "https://duffigoogle-techfolio.vercel.app/",
   github_url: "https://github.com/Duffigoogle/portfolio",
-  category: ["React"],
+  category: ["Nextjs"],
   tech_used: ["NextJs", "Styled-Components", "TailwindCSS"]
 },
 ]

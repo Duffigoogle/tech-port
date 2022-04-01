@@ -13,7 +13,6 @@ const Projects: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1>Projects Page</h1>
         <ProjectsComp />
       </main>
       </div>
