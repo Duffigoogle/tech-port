@@ -1,5 +1,29 @@
-import { IService, ISkills, ITraining, IExperience, IProjects } from './type';
+import { IService, ISkills, ITraining, IExperience, IProjects, IWallet } from './type';
 // import Projects from './pages/projects';
+
+export const wallets: IWallet[] = [
+  {
+    name: "coinbase",
+    wallet: "Coinbase Wallet",
+    size: 40,
+
+    // onClick: {connectMetamask}
+  },
+  {
+    name: "walletConnect",
+    wallet: "WalletConnect",
+    size: 40,
+
+    // onClick: {connectMetamask}
+  },
+  {
+    name: "metamask",
+    wallet: "Metamask Wallet",
+    size: 40,
+  
+    // onClick: {connectMetamask}
+  },
+]
 
 export const items: IService[] = [
   {
@@ -40,6 +64,11 @@ export const languages: ISkills[] = [
   {
     name: "JavaScript",
     level: "80%",
+    icon_name: "",
+  },
+  {
+    name: "TypeScript",
+    level: "65%",
     icon_name: "",
   },
   {

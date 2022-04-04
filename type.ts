@@ -1,3 +1,9 @@
+export interface IWallet {
+    name: string,
+    wallet: string,
+    size: number,
+    onClick?: () => {}
+}
 export interface IService {
     title: string,
     content: string,
